@@ -45,13 +45,13 @@ public class SimpleBot {
 
     static void test() {
         System.out.println("Let's test your programming knowledge.");
-        System.out.println("Why do we use methods?");
-        System.out.println("1. To repeat a statement multiple times.");
-        System.out.println("2. To decompose a program into several small subroutines.");
-        System.out.println("3. To determine the execution time of a program.");
-        System.out.println("4. To interrupt the execution of a program.");
+        System.out.println("How many bits are in 8 bytes?");
+        System.out.println("1. 24.");
+        System.out.println("2. 35.");
+        System.out.println("3. 64.");
+        System.out.println("4. 1024.");
         int ans = scanner.nextInt();
-        while(ans != 2) {
+        while(ans != 3) {
             System.out.println("Please, try again.");
             ans = scanner.nextInt();
         }
